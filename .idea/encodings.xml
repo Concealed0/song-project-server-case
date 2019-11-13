@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../song-project-maven/song-project-client-case/song-project-client-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../song-project-maven/song-project-client-case/song-project-client-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../song-project-maven/song-project-main-case/song-project-portal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/song-project-server-eureka" charset="UTF-8" />
+  </component>
+</project>

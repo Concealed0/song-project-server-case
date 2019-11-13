@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="song-project-portal" />
+        <module name="song-project-client-case" />
+        <module name="song-project-client-consumer" />
+        <module name="song-project-server-case" />
+        <module name="song-project-client-eureka" />
+        <module name="song-project-demo-api" />
+        <module name="song-project-server-eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="song-project-protal" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="song-project-client-consumer" options="-parameters" />
+      <module name="song-project-client-eureka" options="-parameters" />
+      <module name="song-project-portal" options="-parameters" />
+      <module name="song-project-server-eureka" options="-parameters" />
+    </option>
+  </component>
+</project>
